@@ -1,4 +1,4 @@
-## Adrian's Physics Playground
+## Adrian's Physics Playground - Project Description
 
 # *Please view the published website [here](https://scribblekibble.github.io/).*
 

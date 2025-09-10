@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adrian's Physics Playground</title>
+  <style>
+    @font-face {
+      font-family: 'Blackboard';
+      src: url('fonts/CfBlackboardPersonalRegular-AKPg.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: url("chalkboard.jpeg") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    .logo {
+      margin-top: 80px;
+      width: 1500px;
+      max-width: 95%;
+    }
+
+    .start-here {
+      margin: 20px 0 50px 0;  
+      width: 625px;             
+      max-width: 90%;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .start-here:hover {
+      transform: scale(1.05);
+    }
+
+    /* Grid container */
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px 30px;
+      width: 90%;
+      max-width: 1500px;
+      margin-bottom: 100px;
+      justify-items: center;
+    }
+
+    /* Text buttons */
+    .text-button {
+      font-family: 'Blackboard', Times New Roman, serif;
+      font-size: 1.8rem;
+      color: #fff;
+      text-decoration: underline;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Hover effect: enlarge + add star */
+    .text-button:hover {
+      transform: scale(1.05);
+    }
+
+    .text-button:hover::before {
+      content: "★ ";
+      position: absolute;
+      left: -1.3em; /* adjust horizontal spacing */
+    }
+  </style>
+</head>
+<body>
+  <!-- Logo -->
+  <img src="images/adriansphysicsplaygroundlogo.PNG" alt="Adrian's Physics Playground Logo" class="logo">
+
+  <!-- Start Here button (PNG) -->
+  <a href="starthere.html">
+    <img src="images/starthere(1).PNG" alt="Start Here" class="start-here"
+         onmouseover="this.src='images/starthere2.PNG'"
+         onmouseout="this.src='images/starthere(1).PNG'">
+  </a>
+
+  <!-- Grid of text buttons -->
+  <div class="buttons">
+    <a href="learning.html" class="text-button">Coursework and Studies</a>
+    <a href="library.html" class="text-button">Library</a>
+    <a href="cv.html" class="text-button">CV</a>
+    <a href="sciencecommunication.html" class="text-button">Science Communication</a>
+    <a href="programming.html" class="text-button">Programming</a>
+    <a href="writing.html" class="text-button">Writing</a>
+    <a href="cern.html" class="text-button">CERN</a>
+    <a href="ytchannels.html" class="text-button">YouTube Channels</a>
+    <a href="resources.html" class="text-button">Resources</a>
+    <a href="research.html" class="text-button">Research</a>
+    <a href="art.html" class="text-button">Art</a>
+  </div>
+</body>
+</html>

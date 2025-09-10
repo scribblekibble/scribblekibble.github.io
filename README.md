@@ -4,7 +4,7 @@
 
 I was originally hosting this on Neocities (modern version of the beloved 90s-era [Geocities](https://geocities.restorativland.org/)), but that had no version control and was more informal, and so I figured migrating the project to Github + Github Pages would be good practice.
 
-*Taken from website:*
+**Taken from website:**
 
 Hello and thank you for stopping by Adrian’s Physics Playground! My name is Adrian, a third-year undergraduate physics student with aspirations in experimental particle physics (see CERN). I had been meaning to create something like for a while now, some type of personal website acting as my home base to document my physics journey. I had always written off HTML and web design as not for me, but it’s surprisingly easy to get a hang of.
 

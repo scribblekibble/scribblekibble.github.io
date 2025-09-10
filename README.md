@@ -1,6 +1,6 @@
-# Adrian's Physics Playground
+## Adrian's Physics Playground
 
-*Please view the published website [here](https://scribblekibble.github.io/).*
+# *Please view the published website [here](https://scribblekibble.github.io/).*
 
 I was originally hosting this on Neocities (modern version of the beloved 90s-era [Geocities](https://geocities.restorativland.org/)), but that had no version control and was more informal, and so I figured migrating the project to Github + Github Pages would be good practice.
 

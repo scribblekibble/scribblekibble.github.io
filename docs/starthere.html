@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adrian's Physics Playground</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: "Courier New", monospace;
+      background: url("chalkboard.jpeg") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    a {
+      color: #4AD5E7;
+      text-decoration: underline;
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+      height: 100%;
+    }
+
+    .image {
+      flex: 0 0 45%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .image img {
+      width: 90%;   /* keep some breathing room */
+      height: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      border-radius: 0;
+    }
+
+    .text {
+      flex: 0 0 55%;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      padding: 30px;
+      overflow-y: auto;
+    }
+
+    .text p {
+      margin-bottom: 1em;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+      }
+      .image, .text {
+        flex: none;
+        width: 100%;
+      }
+      .image img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="image">
+    <img src="images/adrian.PNG" alt="Adrian">
+  </div>
+
+  <div class="text">
+    <p>Hello and thank you for stopping by Adrian’s Physics Playground! My name is Adrian, a third-year undergraduate physics student with aspirations in experimental particle physics (see <a href="cern.html">CERN</a>). I had been meaning to create something like for a while now, some type of personal website acting as my home base to document my physics journey. I had always written off HTML and web design as not for me, but it’s surprisingly easy to get a hang of.</p>
+
+    <p>A big reason I created this website is I got inspired by the <a href="sciencecommunication.html">science communication</a> project I’m working on with my professor and a graduate student, tentatively titled Particle Bites. The elevator pitch for that is TBD, but it involves a lot of HTML. Our intended medium is triweekly installments on a website. We discussed the possibility of me animating Feynman diagrams, and so you might catch me playing around with Javascript or rudimentary gamedev (see <a href="programming.html">programming</a>) to test the possibilities of that.</p>
+
+    <p>The subpage that will likely end up being the most developed is the <a href="learning.html">coursework and studies</a> subpage. Another big reason for creating this website is I have been studying Thomas Moore’s <em>A Standard Model Workbook</em> (along with some supplementary texts - check out my <a href="library.html">library</a>) this past summer under the guidance of my mentor with weekly meetings. …And then I fell into an unexpected depressive episode. Still wanting a way to show my mentor my progress in at least some form, I thought an interactive website would be a fun way to do this rather than a dry email (as you can see, I’m still learning what method of learning and productivity works best for me, which is another reason I made this website).</p>
+
+    <p>And that’s just a handful of the subpages on this website! I strongly believe that learning physics does not necessarily need to be something dusty/lifeless/cold/sterile and it is instead something creative and deeply personal and fun and fulfilling. It was Feynman himself that said “Study hard what interests you in the most undisciplined, irreverent and original manner possible.”</p>
+
+    <p>So please, take a look around and see what you find! Think of this as a live archive or digital testament to my learning, or something flowery and poetic like that. Enjoy your stay and never stop questioning! :-)</p>
+
+    <p>P.S. I’m trying to adopt a “make it exist first and make it look good later” mindset to combat my perfectionist tendencies, so this will get more polished over time.</p>
+  </div>
+</div>
+</body>
+</html>

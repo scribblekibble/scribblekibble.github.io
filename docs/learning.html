@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning - Adrian's Physics Playground</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Courier New', monospace;
+      background: url("chalkboard.jpeg") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 3rem;
+    }
+
+    .subtext {
+      margin-bottom: 50px;
+      font-size: 1.5rem;
+    }
+
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px 50px;
+      width: 90%;
+      max-width: 1200px;
+      justify-items: center;
+    }
+
+    .text-button {
+      font-family: 'Courier New', monospace;
+      font-size: 1.8rem;
+      color: #fff;
+      text-decoration: underline;
+      cursor: pointer;
+      transition: transform 0.2s ease, text-decoration 0.2s ease;
+      display: inline-block;
+      position: relative;
+    }
+
+    .text-button::before {
+      content: '';
+      position: absolute;
+      left: -1.5em;
+      top: 0;
+      color: gold;
+      font-size: 1.8rem;
+      display: none;
+    }
+
+    .text-button:hover {
+      transform: scale(1.1);
+      text-decoration: underline;
+    }
+
+    .text-button:hover::before {
+      content: '★';
+      display: inline-block;
+    }
+
+    @media (max-width: 900px) {
+      .buttons {
+        grid-template-columns: 1fr; /* single column on mobile */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Coursework and Studies</h1>
+  <p class="subtext">Explore different areas of physics and math through this subpage.</p>
+
+  <div class="buttons">
+    <a href="qft_smodel.html" class="text-button">Quantum Field Theory & The Standard Model</a>
+    <a href="classicalmechanics.html" class="text-button">Classical Mechanics</a>
+    <a href="quantummechanics.html" class="text-button">Quantum Mechanics</a>
+    <a href="calculus_ode.html" class="text-button">Calculus / Differential Equations</a>
+    <a href="linear_algebra.html" class="text-button">Linear Algebra</a>
+    <a href="miscellaneous.html" class="text-button">Miscellaneous</a>
+  </div>
+
+</body>
+</html>
